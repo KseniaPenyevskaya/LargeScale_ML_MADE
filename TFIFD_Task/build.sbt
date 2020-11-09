@@ -1,4 +1,4 @@
-name := "TrySparkScala"
+name := "tfidf"
 
 version := "0.1"
 
@@ -8,7 +8,3 @@ libraryDependencies  ++= Seq(
   "org.apache.spark"%% "spark-core" % "2.4.0",
   "org.apache.spark" %% "spark-sql" % "2.4.0"
 )
-/*
-libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.0"
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.0"
- */
